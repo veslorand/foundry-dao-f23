@@ -1,12 +1,11 @@
 // contracts/Box.sol
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.19;
 
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
 contract Box is Ownable {
-    constructor() Ownable(msg.sender) {
-    }
+    constructor() Ownable() {}
 
     uint256 private s_number;
 

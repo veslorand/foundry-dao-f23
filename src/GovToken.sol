@@ -26,4 +26,3 @@ contract GovToken is ERC20, ERC20Permit, ERC20Votes {
         super._burn(account, amount);
     }
 }
-                                                                                                                                                           
